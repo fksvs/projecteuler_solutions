@@ -2,7 +2,7 @@
 
 /* what is the 10001st prime number */
 
-int main(int argc, char* argv[])
+int main()
 {
 	int prime_list[10001], total = 1, i = 3;
 	prime_list[0] = 2;

@@ -25,9 +25,9 @@ char *number = "73167176531330624919225119674426574742355349194934\
 05886116467109405077541002256983155200055935729725\
 71636269561882670428252483600823257530420752963450";
 
-int main(int argc, char *argv[])
+int main()
 {
-	int cur = 0;
+	unsigned long int cur = 0;
 	unsigned long long int last_product = 0, product = 1;
 
 	while (cur < strlen(number) - 13) {
@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
 		cur++;
 	}
 
-	printf("answer : %ld\n", last_product);
+	printf("answer : %lld\n", last_product);
 
 	return 0;
 }

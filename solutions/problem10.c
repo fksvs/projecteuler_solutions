@@ -6,7 +6,7 @@
 
 /* find the sum of all the primes below two million */
 
-int main(int argc, char *argv[])
+int main()
 {
 	int num = 2000000;
 	bool arr[num];

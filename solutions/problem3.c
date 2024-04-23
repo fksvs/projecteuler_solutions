@@ -3,7 +3,7 @@
 
 /* what is the largest prime factor of the number 600851475143 */
 
-int main(int argc, char *argv[])
+int main()
 {
 	unsigned long long t = 600851475143;
 
@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 		}
 	}
 
-	printf("answer : %ld\n", t);
+	printf("answer : %lld\n", t);
 
 	return 0;
 }

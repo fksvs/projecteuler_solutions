@@ -3,7 +3,7 @@
 /* find the difference between the sum of the squares of the first one hundred
  * natural numbers and the square of the sum */
 
-int main(int argc, char *argv[])
+int main()
 {
 	long int sum_of_squares = 0, square_of_sum = 0;
 

@@ -3,7 +3,7 @@
 /* By considering the terms in the Fibonacci sequence whose values 
  * do not exceed four million, find the sum of the even-valued terms */
 
-int main(int argc, char *argv[])
+int main()
 {
 	int cur = 0, i = 1, new = 0, sum = 0;
 

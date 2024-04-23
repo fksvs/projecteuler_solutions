@@ -3,7 +3,7 @@
 
 /* What is the sum of the digits of te number 2 power 1000 */
 
-int main(int argc, char *argv[])
+int main()
 {
 	int max_digits = 1000 * log10(2) + 1;
 	int digits[max_digits];

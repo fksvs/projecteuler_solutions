@@ -2,7 +2,7 @@
 
 /* Which starting number, under one million, produces the longest collatz chain? */
 
-int main(int argc, char *argv[])
+int main()
 {
 	unsigned long long int ans = 0;
 	int max_c = 0;
@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 		}
 	}
 
-	printf("answer : %ld\n", ans);
+	printf("answer : %lld\n", ans);
 
 	return 0;
 }

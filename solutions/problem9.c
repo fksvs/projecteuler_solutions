@@ -4,7 +4,7 @@
 /* There exists exactly one Pythagorean triplet for which a + b + c = 1000.
  * Find the product abc.*/
 
-int main(int argc, char *argv[])
+int main()
 {
 	for (int a = 1; a < 1000; a++) {
 		for (int b = 1; b < 1000; b++) {

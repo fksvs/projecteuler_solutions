@@ -49,9 +49,9 @@ unsigned grid[20][20] = {
 		       33, 48, 61, 43, 52, 1,  89, 19, 67, 48 },
 };
 
-int main(int argc, char *argv[])
+int main()
 {
-	unsigned long int ans = 0, product = 1;
+	unsigned long int ans = 0;
 
 	for (int y = 0; y < 16; y++) {
 		for (int x = 0; x < 16; x++) {

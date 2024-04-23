@@ -2,7 +2,7 @@
 
 /* What is the value of the first triangle number to have over five hundred divisors ? */
 
-int main(int argc, char *argv[])
+int main()
 {
 	int num = 0;
 

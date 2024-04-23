@@ -20,7 +20,7 @@ int is_palindrome(int num)
 	return 0;
 }
 
-int main(int argc, char *argv[])
+int main()
 {
 	int ans = 0;
 

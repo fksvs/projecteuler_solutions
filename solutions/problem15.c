@@ -4,7 +4,7 @@
 
 /* How many such routes are there through a 20 x 20 grid? */
 
-int main(int argc, char *argv[])
+int main()
 {
 	int size = 21;
 	unsigned long long int grid[size][size];
